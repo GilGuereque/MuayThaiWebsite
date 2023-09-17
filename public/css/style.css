@@ -1,8 +1,12 @@
-nav {
+h1 {
+  color: red;
+}
+
+.topBar {
     border-bottom: 1px solid black;
   }
   
-  .topBar ol {
+  .topBar ul {
     list-style-type: none;
     padding-left: 0;
   }
