@@ -12,6 +12,11 @@ body {
   justify-content: flex-start; /* Align items to the start (top) of container */
   align-items: center; /* center items horizontally */
   padding: 10px;
+  background-image: url('../assets/muayThaiHome.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 
