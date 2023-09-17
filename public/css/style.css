@@ -1,12 +1,33 @@
-h1 {
-  color: red;
+/* Reset margin and padding for body and list elements */
+body, ul {
+  margin: 0;
+  padding: 0;
 }
 
-.topBar {
+/* Apply a background color or any other styles you want for the body */
+body {
+  /* Change this to your desired background color */
+  display: flex;
+  flex-direction: column; /* arrange items vertically */
+  justify-content: flex-start; /* Align items to the start (top) of container */
+  align-items: center; /* center items horizontally */
+  padding: 10px;
+}
+
+
+/* style the h1 */
+h1 {
+  text-align: left;
+  color: red;
+  margin: 0;
+}
+
+/* style the nav bar elements */
+nav {
     border-bottom: 1px solid black;
   }
   
-  .topBar ul {
+  .topBar ol {
     list-style-type: none;
     padding-left: 0;
   }
@@ -23,3 +44,12 @@ h1 {
     font-weight: bold;
     padding: 0 3px;
   }
+
+/* style the h2 & h3 */
+h2, h3 {
+  text-align: center; /* align the h2 & h3 to the left*/
+  margin: 0;
+  width: 100%; /* Ensure h2 and h3 take the full width of the container */
+  max-width: 400px; /* Adjust the maximum width as needed */
+  padding: 10px; /* Add padding for spacing */
+}
