@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GilGuereque/MuayThaiWebsite/issues"
   },
-  "homepage": "https://github.com/GilGuereque/MuayThaiWebsite#readme"
+  "homepage": "https://github.com/GilGuereque/MuayThaiWebsite#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
