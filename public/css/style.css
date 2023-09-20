@@ -34,6 +34,7 @@ nav {
     flex-wrap: wrap;
     clear: both;
     right: auto;
+    background-color: rgba(0,0,0,0.5)
   }
   
   .topBar ol {
@@ -50,9 +51,9 @@ nav {
     display: inline-block;
     color: #000;
     content: '|';
-    font-size: 80%;
+    font-size: 1.2rem
     font-weight: bold;
-    padding: 0 3px;
+    padding: 0 8px;
   }
 
 /* style the h2 & h3 */
@@ -97,4 +98,20 @@ nav {
   width: 40%;
   /* margin-left: 0%;
   margin-right: 0%;    */
+  margin-left: 0%;
+  margin-right: 0%;   
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: left;
+}
+
+.fightImage{
+  width: 50%;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  float: right;
+  align-items: center;
+  text-align: center;
 }
