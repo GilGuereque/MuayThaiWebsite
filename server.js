@@ -9,7 +9,7 @@ const PORT = 5050;
 // const connectDB = require('./config/database')
 
 // Setting up middleware for Express
-app.set('view engine', 'html')
+app.set('view engine', 'ejs')
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -17,7 +17,7 @@ app.use(express.json());
 // Initial GET request
 app.get('/', (req,res) => {
     try {
-        res.render('index.html')
+        res.render('index.ejs')
     } catch (error) {
         console.error(error)
         res.status(500).send('500 HTTP Status code. A server error has occurred from the GET request.');
