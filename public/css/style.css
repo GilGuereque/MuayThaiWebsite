@@ -115,3 +115,8 @@ nav {
   align-items: center;
   text-align: center;
 }
+
+footer {
+  color: white;
+  clear: both;
+}
