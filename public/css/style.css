@@ -111,7 +111,7 @@ nav {
   clear: both;
   padding: 0;
   margin: 0;
-  float: right;
+  /* float: right; */
   align-items: center;
   text-align: center;
 }
