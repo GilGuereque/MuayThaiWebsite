@@ -119,6 +119,7 @@ nav {
 footer {
   color: white;
   clear: both;
+  border-top: #000 3px;
 }
 
 .contact {
