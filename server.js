@@ -2,6 +2,7 @@
 const express = require('express');
 const app = express();
 const PORT = 5050;
+// Routes
 
 // Set up mongoose & config database connection
 // const mongoose = require('mongoose');
