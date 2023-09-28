@@ -120,9 +120,10 @@ footer {
   color: white;
   clear: both;
   border-top: #000 3px;
+  border-top: 3px black;
 }
 
 .contact {
-  border-bottom: 3x white;
+  border-bottom: 3px white;
   
 }
