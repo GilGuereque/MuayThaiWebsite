@@ -2,7 +2,10 @@
 const express = require('express');
 const app = express();
 const PORT = 5050;
+
 // Routes
+    // TODO: create routes for the views in the Nav bar 
+
 
 // Set up mongoose & config database connection
 // const mongoose = require('mongoose');
