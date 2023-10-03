@@ -13,7 +13,7 @@ const PORT = 5050;
 // const connectDB = require('./config/database')
 
 // Set up Routes
-const homeRoutes = require('./routes/home');
+const mainRoutes = require('./routes/main');
 
 // Setting up middleware for Express
 app.set('view engine', 'ejs')
@@ -30,6 +30,9 @@ app.use(express.json());
 //         res.status(500).send('500 HTTP Status code. A server error has occurred from the GET request.');
 //     }
 // });
+
+// Use Routes
+app.use('/', mainRoutes);
 
 // Set up PORT connection
 app.listen(PORT || process.env.PORT, () => {
