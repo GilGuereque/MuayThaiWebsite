@@ -12,6 +12,9 @@ const PORT = 5050;
 // const passport = require('passport');
 // const connectDB = require('./config/database')
 
+// Set up Routes
+const homeRoutes = require('./routes/home');
+
 // Setting up middleware for Express
 app.set('view engine', 'ejs')
 app.use(express.static('public'));
