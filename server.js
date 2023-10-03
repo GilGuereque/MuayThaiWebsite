@@ -21,15 +21,15 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Initial GET request
-app.get('/', (req,res) => {
-    try {
-        res.render('index.ejs')
-    } catch (error) {
-        console.error(error)
-        res.status(500).send('500 HTTP Status code. A server error has occurred from the GET request.');
-    }
-});
+// // Initial GET request -- moved this to home.js controller & route
+// app.get('/', (req,res) => {
+//     try {
+//         res.render('index.ejs')
+//     } catch (error) {
+//         console.error(error)
+//         res.status(500).send('500 HTTP Status code. A server error has occurred from the GET request.');
+//     }
+// });
 
 // Set up PORT connection
 app.listen(PORT || process.env.PORT, () => {
