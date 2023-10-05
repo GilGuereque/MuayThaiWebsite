@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  /* padding: 1rem; */
   position: sticky;
   top: 0px;
   background: black;
@@ -56,35 +56,6 @@ a {
 a:hover {
   color: red;
 }
-
-/* style the nav bar elements */
-/* nav {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    clear: both;
-    right: auto;
-    background-color: rgba(0,0,0,0.5)
-  }
-  
-  .topBar ol {
-    list-style-type: none;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  
-  .topBar {
-    display: inline-block;
-  }
-  
-  .topBar a::after {
-    display: inline-block;
-    color: #000;
-    content: '|';
-    font-size: 1.2rem
-    font-weight: bold;
-    padding: 0 8px;
-  } */
 
 .firstSection {
   background-color: black;
