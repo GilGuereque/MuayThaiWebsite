@@ -7,19 +7,15 @@
 */
 
 /* Reset margin and padding for body and list elements */
-body, ul {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Apply a background color or any other styles you want for the body */
 body {
-  /* Change this to your desired background color */
-  /* display: flex; */
-  /*flex-direction: column;  arrange items vertically */
-  /*justify-content: flex-start;  Align items to the start (top) of container */
-  /* align-items: center; center items horizontally */
-  padding: 10px;
+  background: black;
   background-image: url('../assets/muayThaiHome.jpg');
   background-size: cover;
   background-repeat: no-repeat;
