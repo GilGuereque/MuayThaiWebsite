@@ -42,7 +42,8 @@ header {
 
 ul {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  padding-right: 100px;
 }
 
 li {
@@ -59,10 +60,9 @@ a:hover {
 }
 
 .section-1 {
-  /* background: black; */
   display: flex;
   justify-content: center;
-  /* gap: 2rem; */
+  gap: 2rem;
 }
 
 .container {
@@ -86,16 +86,7 @@ a:hover {
 .section-2{
   display: flex;
   justify-content: center;
-  /* clear: both;
-  padding-top: 50px;
-  background-color: darkgray;
-  width: 40%;
-  margin-left: 0%;
-  margin-right: 0%;   
-  padding: 0;
-  margin: 0;
-  border: 0;
-  float: left; */
+  /* gap: 2rem; */
 }
 
 .container-2 {
@@ -116,13 +107,22 @@ a:hover {
   overflow: hidden;
 }
 
+.section-3 {
+  /* background: black; */
+  display: flex;
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
 .fightImage{
   width: 50%;
   clear: both;
-  padding: 0;
-  margin: 0;
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  justify-items: center;
   align-items: center;
-  text-align: center;
+  text-align: center; */
 }
 
 footer {
