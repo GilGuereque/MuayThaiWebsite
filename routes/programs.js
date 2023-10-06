@@ -4,3 +4,6 @@ const programsController = require('../controllers/programs');
 
 // Route to GET call in controller
 router.get('/programs', programsController.getPrograms);
+
+// Export Module
+module.exports = router;

@@ -34,6 +34,7 @@ app.use(express.json());
 
 // Use Routes
 app.use('/', mainRoutes);
+app.use('/programs', programsRoutes);
 
 // Set up PORT connection
 app.listen(PORT || process.env.PORT, () => {
