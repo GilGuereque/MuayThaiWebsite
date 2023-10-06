@@ -14,6 +14,7 @@ const PORT = 5050;
 
 // Set up Routes
 const mainRoutes = require('./routes/main');
+const programsRoutes = require('./routes/programs');
 
 // Setting up middleware for Express
 app.set('view engine', 'ejs')
