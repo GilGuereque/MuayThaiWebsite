@@ -1,6 +1,11 @@
 // GET request
 module.exports = {
     getPrograms: (req, res) => {
-        res.render('programs.ejs');
+        try {
+            res.render('programs.ejs');
+        } catch (error) {
+            console.log(error);
+        }
+        
     }
 };
