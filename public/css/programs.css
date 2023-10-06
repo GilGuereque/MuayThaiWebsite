@@ -1,0 +1,47 @@
+/* Reset margin and padding for body and list elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color or any other styles you want for the body */
+  body {
+    background: black;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    position: sticky;
+    top: 0px;
+    background: black;
+    color: white;
+  }
+  
+  .logo {
+    padding: 0;
+    height: 80px;
+    width: 120px;
+  }
+  
+  ul {
+    display: flex;
+    gap: 2rem;
+    padding-right: 100px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: red;
+  }
