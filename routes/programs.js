@@ -1,3 +1,4 @@
+// Setting up express & router
 const express = require('express');
 const router = express.Router();
 const programsController = require('../controllers/programs');
