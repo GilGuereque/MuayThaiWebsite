@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* Apply a background color or any other styles you want for the body */
@@ -93,6 +93,7 @@ a:hover {
   background: gray;
   width: 100%;
   height: 300px;
+  border-radius: 25px;
 }
 
 .box-2 {
