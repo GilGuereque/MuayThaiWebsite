@@ -96,3 +96,24 @@
     width: 300px;
     padding-top: 15px;
 }
+
+.section-2 {
+  background: rgb(38, 35, 46);
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+}
+
+.content-3 {
+  background: rgb(37, 33, 46);
+  display: flex;
+  gap: 4rem;
+  color: white;
+  padding-top: 170px;
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+  position: absolute;
+  top: 750px;
+  left: 100px;
+}
