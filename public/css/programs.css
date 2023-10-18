@@ -111,7 +111,7 @@
   color: white;
   padding-top: 170px;
   height: 400px;
-  width: 400px;
+  width: 500px;
   border-radius: 25px;
   position: absolute;
   top: 750px;
@@ -127,5 +127,14 @@
 .adbjjspan {
   position: relative;
   top: 100px;
-  left: 200px;
+  left: 180px;
+}
+
+.adultsbjj {
+  position: relative;
+  left: -100px;
+  top: -45px;
+  width: 245px;
+  height: 265px;
+  border-radius: 25px;
 }
